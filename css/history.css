@@ -1,0 +1,94 @@
+nav a:nth-child(4){
+    color: red;
+    background:rgba(255, 255, 255,.3);
+}
+.content .preface {
+    width: 1250px;
+    padding: 30px 350px;
+    
+}
+.content .preface h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'KaiTi','Microsoft Yahei', '微软雅黑', 'SimSun', 'SimHei';
+}
+.content .preface p{
+    font-size: 20px;
+    font-family: 'KaiTi','Microsoft Yahei', '微软雅黑', 'SimSun', 'SimHei';
+    line-height: 35px;
+    
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'KaiTi','Microsoft Yahei', '微软雅黑', 'SimSun', 'SimHei';
+    /* background-color: rgba(0,0,0,.1); */
+}
+
+.icons_items {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 80px;
+    width: 200px;
+}
+
+.icons_items_imgs {
+    width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 15px 15px 10px gray;
+}
+
+#syz
+{
+    background-image: green;
+}
+.content{
+    height: 3600px;
+    /* background-color: rgb(212, 238, 253); */
+    background-color: #f1fafa;
+}
+.introduce {
+    display: flex;
+    flex-direction: column;
+    font-family: 'KaiTi','Microsoft Yahei', '微软雅黑', 'SimSun', 'SimHei';
+    /* background-color: rgba(0,0,0,.1); */
+}
+
+.introduce_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.introduce_item_img {
+    width: 800px;
+    height: 500px;
+    box-shadow: 15px 15px 10px gray;
+}
+
+.introduce_item_title {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 100px;
+}
+
+.introduce_item_titles {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+.animate {
+    padding-left: 20px;
+    width: 500px;
+    font-size: 16px;
+    color: #000;
+    animation: 10s wordsLoop linear infinite normal;
+}

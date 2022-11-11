@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(221, 218, 218);
+}
+
+.w {
+    width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-image: url(../images/loginbar.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+header img {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#map {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 68px;
+    height: 68px;
+}
+
+header .timeBox {
+    position: absolute;
+    right: 180px;
+    top: 35px;
+    width: 90px;
+    height: 20px;
+}
+
+header .timeBox ul li {
+    float: left;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+header .weeks {
+    position: absolute;
+    top: 22px;
+    right: 25px;
+}
+
+.search {
+    position: absolute;
+    right: 300px;
+    top: 30px;
+    width: 305px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.search input {
+    float: left;
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+
+.search button {
+    float: left;
+    width: 55px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'icomoon';
+    border: none;
+}
+
+.login{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.login a{
+    color: blue;
+    font-size: 20px;
+    font-weight: 400;
+}
+.skin {
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 120px;
+    height: 30px;
+}
+
+.skin button {
+    float: left;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'icomoon';
+    /* border: 1px solid rgb(214, 240, 255); */
+    border: none;
+    background-color: rgb(214, 240, 255);
+    /* background-color: #fff; */
+}
+
+.sbt1 {
+    color: pink;
+}
+
+.sbt2 {
+    color: blue;
+}
+
+.sbt3 {
+    color: orange;
+}
+
+.sbt4 {
+    color: green;
+}
+
+nav {
+    margin: 0 auto;
+    height: 40px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    float: left;
+    display: block;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+/* 鼠标经过事件，在JS代码中实现了，效果相同 */
+/* nav a:hover {
+    color: red;   
+    background:rgba(255, 255, 255,.3);
+} */
+
+/* .content {
+    width: 100%;
+    height: 1000px;
+    
+} */
+
+#foot {
+    /*保证footer是相对于base位置绝对定位*/
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    height: 190px;
+    /* footer的高度一定要是固定值*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/foot.png);
+    background-repeat: no-repeat;
+}
+
+footer p {
+    padding-top: 10px;
+    color: rgb(0, 139, 208);
+    text-align: center;
+}
+
+footer .extension {
+    width: 240px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+footer .extension ul>li {
+    float: left;
+    width: 50px;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+footer .extension ul>li span {
+    font-family: 'icomoon';
+    font-size: 30px;
+    /* color: rgb(144, 202, 236); */
+    margin-left: 10px;
+}
+
+footer .extension li:nth-child(1) span {
+    color: rgb(134, 202, 245);
+}
+
+footer .extension li:nth-child(2) span {
+    color: green;
+}
+
+footer .extension li:nth-child(3) span {
+    color: rgb(45, 219, 113);
+}
+
+footer .extension li:nth-child(4) span {
+    color: rgb(165, 199, 59);
+}
+
+footer .extension li:nth-child(5) span {
+    color: blue;
+}
+
+footer .extension li:nth-child(6) span {
+    color: green;
+}
+
+footer .extension li:nth-child(7) span {
+    color: red;
+}
+
+footer .extension li:nth-child(8) span {
+    color: black;
+}
+
+footer .extension ul>li p a {
+    font-size: 3px;
+    text-align: center;
+    /* color: blue; */
+    color: rgb(0, 139, 208);
+}
